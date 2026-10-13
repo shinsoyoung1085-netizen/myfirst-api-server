@@ -18,4 +18,5 @@ patches:
 #     skala-registry.skala-ai.com/class-7/sk222-webserver=skala-registry.skala-ai.com/class-7/sk222-webserver:<NEW_TAG>
 images:
 - name: skala-registry.skala-ai.com/class-7/sk222-webserver
-  newTag: "1.0"
+  newName: skala-registry.skala-ai.com/class-7/sk222-webserver
+  newTag: 1.0-dk1-ae8deff
