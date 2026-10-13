@@ -1,6 +1,6 @@
 # 01.spring-backend-v1.0
 
-## 이 코드는 무엇을 위한 실습인가?
+## 이 코드는 무엇을 위한 실습인가? *-**
 Spring Boot(JPA + H2)로 만든 **REST API 전용 백엔드**입니다. 사용자(User)·상품(Product)·주문(Order)·결제(Payment)·배송(Delivery) 도메인을 다루며, JPA 연관관계(`@ManyToOne`, `@OneToOne`), 상태 전이(Enum), Actuator/Prometheus를 이용한 Kubernetes 헬스체크·모니터링을 실습합니다.
 
 > 원래 이 프로젝트에는 Thymeleaf 화면(View Controller + templates)도 함께 있었지만, **화면은 [`03.frontend`](../03.frontend)로 분리**했습니다. 03.frontend는 정적 HTML/CSS/JS로 만든 별도 프로젝트이며, 브라우저의 JavaScript가 이 프로젝트(01)의 REST API를 호출해서 화면을 그립니다.
